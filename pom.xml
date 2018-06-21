@@ -69,9 +69,9 @@
                                 <propertiesFile>publish.properties</propertiesFile>
                             </artifactory>
                             <publisher>
-                                <contextUrl>{{ARTIFACTORY_URL}}</contextUrl>
-                                <username>{{ARTIFACTORY_USERNAME}}</username>
-                                <password>{{ARTIFACTORY_PASSWORD}}</password>
+                                <contextUrl>http://artifactory.sdt.com:8081/artifactory/</contextUrl>
+                                <username>deliver</username>
+                                <password>deliver</password>
                                 <excludePatterns>*-tests.jar</excludePatterns>
                                 <repoKey>libs-release-local</repoKey>
                                 <snapshotRepoKey>libs-snapshot-local</snapshotRepoKey>
